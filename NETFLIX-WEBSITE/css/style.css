@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #e50914
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: black;
+    color: #999;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    margin: 0.5rem 0; /*i rem = 16 px*/
+}
+
+img {
+    width: 100%;
+}
+
+.showcase {
+    width: 100%;
+    height: 93vh;   /*basically the main class has covered 93% of the screen*/
+}
